@@ -16,7 +16,7 @@ post '/newteam' do
   @smallForward = params[:sf]
   @powerForward = params[:pf]
   @center = params[:center]
-  
+
   erb :team
 end
 
