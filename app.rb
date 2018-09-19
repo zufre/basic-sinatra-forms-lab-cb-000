@@ -11,10 +11,10 @@ post '/newteam' do
 
   @name = params[:name]
   @coach = params[:coach]
-  @pointGuard = params[:pointGuard]
-  @shootingGuard = params[:shootingGuard]
-  @smallForward = params[:smallForward]
-  @powerForward = params[:powerForward]
+  @pointGuard = params[:pg]
+  @shootingGuard = params[:sg]
+  @smallForward = params[:sf]
+  @powerForward = params[:pf]
   @center = params[:center]
   
   erb :team
